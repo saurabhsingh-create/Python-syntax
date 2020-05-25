@@ -332,3 +332,58 @@ sns.barplot(x=genders.index, y=genders.values)
 df.iloc[:,1:]
 
 google.colab :: used to access files
+
+#while loop
+n =10
+i= 1
+sum = 0
+while i < n:
+    sum = sum + i
+    print(sum)
+    i = i+1
+print("the sum is ", sum)
+
+#to get a range as list
+list(range(10))
+
+#for loop with break
+digits = [0, 1, 5]
+
+for sfdsf in [0,1,2,3]:
+    if sfdsf == 3:
+        break
+else:
+    print("No items left.")
+print("Fsdfsfsf")
+
+break Statement
+The break statement terminates the loop containing it. Control of the program flows to the statement immediately after the body of the loop.
+If break statement is inside a nested loop (loop inside another loop), break will terminate the innermost loop.
+
+# Use of break statement inside loop
+
+for val in "string":
+    if val == "i":
+        break
+    print(val)
+
+print("The end")
+
+#Continue statement
+it skips the current itertion only and runs as it is for other iterations
+# Program to show the use of continue statement inside loops
+
+for val in "string":
+    if val == "i":
+        continue
+    print(val)
+
+print("The end")
+
+#to get user input
+name = input("what is your name :")
+
+#concating values and strings
+i = 24
+j = 3
+print("You are " + str(i) + "years old and have "+ str(j) + " years of experience")
